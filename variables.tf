@@ -7,5 +7,4 @@ variable "url" {
 variable "refresh_token" {
   description = "The refresh token to connect to the vRealize Automation environment"
   type        = string
-  default	  = "yoCDFFb8YRzk7BAbZqF2Qf4rrzR18gZn"
 }
