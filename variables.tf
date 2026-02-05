@@ -1,10 +1,5 @@
-variable "url" {
-  description = "The URL of the vRealize Automation environment either vRA 8.x or vRA Cloud"
+variable "file_name" {
+  description = "Name of created file"
   type        = string
-  default     = "https://soiaas.si.fr.intraorange"
-}
-
-variable "refresh_token" {
-  description = "The refresh token to connect to the vRealize Automation environment"
-  type        = string
+  default    = "just_a_file.txt" 
 }

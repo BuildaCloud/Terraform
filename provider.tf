@@ -1,4 +1,9 @@
-provider "vra" {
-    url = var.url
-    refresh_token = var.refresh_token
+terraform {
+  required_providers {
+    local = {
+      source = "hashicorp/local"
+    }
+  }
 }
+
+provider "local" {}
